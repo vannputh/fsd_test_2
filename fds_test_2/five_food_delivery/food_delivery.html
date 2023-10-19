@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffcc00;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, nav, main, aside, footer {
+            background-color: #fff;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        header h1 {
+            color: #ffcc00;
+            font-size: 24px;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        section {
+            flex: 1;
+            margin: 10px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #ff6600;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border: #ff6600 1px solid;
+            border-collapse: collapse;
+        }
+
+        table img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+    </style>
+    <title>FoodDeli</title>
+</head>
+<body>
+<header>
+    <h1><img src="food_logo.png" height="50" width="75"/>FoodDeli</h1>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="food_delivery.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="order.html">Order Online</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section>
+        <h2>Order Your Favorite Food</h2>
+        <form>
+            <textarea rows="4" cols="50" placeholder="What would you like to order?"></textarea>
+            <button type="submit">Place Order</button>
+        </form>
+    </section>
+</main>
+
+<main>
+    <section>
+        <h2>Menu</h2>
+        <table>
+            <tr>
+                <td><img src="burger.png"/></td>
+                <td>
+                    <strong>Burger Deluxe</strong>
+                    <p>A delicious burger with all the toppings.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="pizza.png"/></td>
+                <td>
+                    <strong>Pepperoni Pizza</strong>
+                    <p>Classic pepperoni pizza for pizza lovers.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="sushi.png" /></td>
+                <td>
+                    <strong>Sushi Platter</strong>
+                    <p>Fresh sushi made to order.</p>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="pasta.png"/></td>
+                <td>
+                    <strong>Spaghetti Bolognese</strong>
+                    <p>Delicious pasta with meat sauce.</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Special Offers</h2>
+        <ul>
+            <li>Get 20% off on your first order!</li>
+            <li>Free delivery for orders over $50.</li>
+        </ul>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 FoodDeli</p>
+</footer>
+</body>
+</html>
